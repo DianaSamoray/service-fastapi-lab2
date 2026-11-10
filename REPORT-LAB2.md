@@ -19,6 +19,12 @@
 ## Метрики Prometheus
 
 
+## Універсальний закон масштабованості
+```
+X(N)=lambda*N/(1+sigma(N-1)+kappa*N(N-1)), C(N)=X(N)/X(1), lambda=X(1)
+
+N/C(N)-1=sigma(N-1)+kappa*N(N-1)
+```
 
 ### Метрика М4
 
