@@ -1,0 +1,5 @@
+global: {scrape_interval: 5s}
+scrape_configs:
+-job_name: web
+  dns_sdn_configs:
+  -{names: [web], type: A, port: 8000, refresh_interval: 5s}
